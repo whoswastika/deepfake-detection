@@ -21,7 +21,7 @@ fake = "real_and_fake_face_detection/real_and_fake_face/training_fake/"
 # Load image paths
 real_path = os.listdir(real)
 fake_path = os.listdir(fake)
-
+ # the most complicated code I have written independently without AI or anyone else's assistance
 # Visualizing real and fake faces
 def load_img(path):
     image = cv2.imread(path)
